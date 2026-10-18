@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camila Mirella | Estética Avançada &amp; Biomedicina em Taubaté</title>
+  <meta name="description" content="Esteticista de Alta Performance e Graduanda em Biomedicina em Taubaté - SP. Especialista em Redução de Medidas, tratamento humanizado para Lipedema e estética facial." />
+  <meta name="theme-color" content="#955A62" />
+
+  <!-- Open Graph / Redes Sociais / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Camila Mirella | Estética Avançada &amp; Biomedicina" />
+  <meta property="og:description" content="Cuidados especializados com rigor científico, redução de medidas e acolhimento para Lipedema em Taubaté - SP." />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+
+  <!-- Material Symbols Outlined -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+
+  <!-- Folha de Estilos do Design System -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. HEADER / NAVBAR FIXA
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <!-- Marca / Logo Tipográfica -->
+      <a href="#" class="brand-logo" aria-label="Camila Mirella - Voltar ao topo">
+        <span class="brand-name">Camila Mirella</span>
+        <span class="brand-tagline">Estética Avançada &amp; Biomedicina</span>
+      </a>
+
+      <!-- Navegação Desktop -->
+      <nav class="nav-desktop" aria-label="Navegação principal">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#procedimentos" class="nav-link">Procedimentos</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#faq" class="nav-link">Dúvidas</a>
+      </nav>
+
+      <!-- Botão de Ação Direta -->
+      <div class="header-actions">
+        <a href="https://wa.me/5512988642559?text=Olá,%20Camila!%20Gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer" class="btn btn-primary header-cta">
+          <span class="material-symbols-outlined" style="font-size: 18px;">chat</span>
+          <span>Agendar no WhatsApp</span>
+        </a>
+        <button type="button" class="menu-toggle" id="menu-toggle-btn" aria-label="Abrir menu de navegação">
+          <span class="material-symbols-outlined" style="font-size: 28px;">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Gaveta de Navegação Mobile -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação mobile">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#procedimentos" class="nav-link">Procedimentos</a>
+      <a href="#depoimentos" class="nav-link">Depoimentos</a>
+      <a href="#faq" class="nav-link">Dúvidas</a>
+      <a href="https://wa.me/5512988642559?text=Olá,%20Camila!%20Gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin-top: 8px;">
+        <span class="material-symbols-outlined" style="font-size: 18px;">chat</span>
+        <span>Agendar no WhatsApp</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Coluna Textual -->
+          <div>
+            <div class="hero-badge" data-reveal data-reveal-delay="0">
+              <span class="material-symbols-outlined" style="font-size: 16px;">verified</span>
+              <span>Especialista em Redução de Medidas &amp; Lipedema · Taubaté - SP</span>
+            </div>
+
+            <h1 class="hero-title" data-reveal data-reveal-delay="0">
+              Realce sua beleza natural com cuidados especializados e ciência
+            </h1>
+
+            <p class="hero-subtitle" data-reveal data-reveal-delay="70">
+              Esteticista de Alta Performance &amp; Graduanda em Biomedicina · Especialista em Redução de Medidas e Lipedema · Taubaté - SP
+            </p>
+
+            <div class="hero-actions" data-reveal data-reveal-delay="70">
+              <a href="https://wa.me/5512988642559?text=Olá,%20gostaria%20de%20agendar%20minha%20avaliação%20personalizada." target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 1rem; padding: 0.9rem 2rem;">
+                <span class="material-symbols-outlined" style="font-size: 20px;">calendar_month</span>
+                <span>Agendar pelo WhatsApp</span>
+              </a>
+              <a href="#procedimentos" class="btn btn-secondary" style="font-size: 1rem; padding: 0.9rem 1.75rem;">
+                <span>Conhecer Tratamentos</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_downward</span>
+              </a>
+            </div>
+
+            <!-- Micro-estatísticas & Selos de Confiança -->
+            <div class="hero-trust-badges" data-reveal data-reveal-delay="140">
+              <div class="trust-item">
+                <div class="trust-icon">
+                  <span class="material-symbols-outlined" style="font-size: 20px;">favorite</span>
+                </div>
+                <div>
+                  <div class="trust-title">Humanizado</div>
+                  <div class="trust-desc">Atendimento calmo e acolhedor</div>
+                </div>
+              </div>
+
+              <div class="trust-item">
+                <div class="trust-icon">
+                  <span class="material-symbols-outlined" style="font-size: 20px;">science</span>
+                </div>
+                <div>
+                  <div class="trust-title">Fisiologia</div>
+                  <div class="trust-desc">Protocolos com base científica</div>
+                </div>
+              </div>
+
+              <div class="trust-item">
+                <div class="trust-icon">
+                  <span class="material-symbols-outlined" style="font-size: 20px;">location_on</span>
+                </div>
+                <div>
+                  <div class="trust-title">Taubaté - SP</div>
+                  <div class="trust-desc">Consultório privativo com hora marcada</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Visual / Imagem -->
+          <div class="hero-media" data-reveal data-reveal-delay="70">
+            <div class="hero-aura"></div>
+            <div class="hero-image-card">
+              <img class="hero-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFO9DCVA5ipyPUUsjgEzAmIMDzDuZ0iISZ9Yra42thKNzoEGV62GAeWGM3khATDqDc8MgzimNgL8-48NnytqLWjHaWiDaHW6WaprLI8IFMzpmwTy5JcWKSOl5BmU7LmKwgJgIB5PgJvJoV0pZskuoC6dW89wSIaco3JpnnUE_t1hmDS8LkEdI4xGJjx2PthqcoJQnmCGlfYiLKL_qTtNwDesNjmKVQB4Z_ZYgXt109HMzG42s7pHnJPvluIVBCOYMj_hxJmhNldQ" alt="Ambiente acolhedor e seguro de atendimento estético" />
+              
+              <div class="hero-floating-card">
+                <div class="hero-floating-icon">
+                  <span class="material-symbols-outlined" style="font-size: 22px;">medical_services</span>
+                </div>
+                <div>
+                  <div class="hero-floating-title">Cuidado Especializado em Lipedema</div>
+                  <div class="hero-floating-text">Desinflamação tecidual suave e alívio do desconforto.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. SEÇÃO SOBRE A PROFISSIONAL
+         ========================================================================= -->
+    <section class="section section-alt" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Retrato Profissional -->
+          <div class="about-portrait-wrapper" data-reveal data-reveal-delay="70">
+            <div class="about-portrait-card">
+              <img class="about-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPQ7eL0kJofug0XhmZ1zwTcZc0Mz2rxQ5H8-vaA6niobATHsU7Jy5Am50M-XLGpxbvz55NAKtE6t9ZpDk76ZNk8eInTF6ccm0OONXgnIiZgPBTqMb5s3lsjwYD5RIi53EWUhflLg6ylLroazuKP3BC_lKOylK5_7HlMZiH2nPcAt93MMR1Z8_juDqsznymbxMA3EZxdYM2uOrwGOIGnSYAJ8B0jUSb0qTOlCCqvWc5FBQZxiAGUMZWHhIBEvFmQr_S5V-OnL3OEw" alt="Retrato de Camila Mirella - Esteticista e Graduanda em Biomedicina" />
+            </div>
+            
+            <div class="about-credential-chip">
+              <div class="chip-header">
+                <span class="material-symbols-outlined" style="font-size: 18px;">school</span>
+                <span>Ciência &amp; Prática</span>
+              </div>
+              <p class="chip-text">Graduanda em Biomedicina com ênfase em fisiologia celular e tecidual.</p>
+            </div>
+          </div>
+
+          <!-- Apresentação Textual -->
+          <div class="about-content">
+            <div class="eyebrow" data-reveal data-reveal-delay="0">
+              <span class="material-symbols-outlined" style="font-size: 20px;">spa</span>
+              <span>Trajetória &amp; Propósito</span>
+            </div>
+
+            <h2 class="section-title" data-reveal data-reveal-delay="0" style="text-align: left;">
+              A união entre o acolhimento do toque e o rigor da precisão científica
+            </h2>
+
+            <p data-reveal data-reveal-delay="70" style="color: var(--color-on-surface-variant); font-size: 1rem; line-height: 1.65;">
+              Com atuação dedicada em Taubaté e uma prática pautada pelo respeito individual a cada biótipo, Camila Mirella transforma o cuidado corporal em uma experiência regenerativa. O objetivo nunca é a padronização estética invasiva, mas sim restaurar o equilíbrio funcional, a autoestima e a saúde do tecido adiposo e cutâneo.
+            </p>
+
+            <div class="about-quote-box" data-reveal data-reveal-delay="140">
+              <div class="about-quote-title">
+                <span class="material-symbols-outlined" style="font-size: 22px;">health_and_safety</span>
+                <span>Olhar Empático e Técnico sobre Lipedema</span>
+              </div>
+              <p class="about-quote-text">
+                O Lipedema é uma inflamação crônica do tecido conjuntivo e gorduroso que afeta milhares de mulheres com dores, sensação de peso e edema persistente. Longe de ser apenas "gordura localizada resistente", exige protocolos gentis de drenagem, termorregulação e descompressão, tratados com profundo respeito clínico e escuta atenta.
+              </p>
+            </div>
+
+            <div class="about-pillars" data-reveal data-reveal-delay="140">
+              <div class="pillar-card">
+                <span class="material-symbols-outlined" style="font-size: 24px;">assignment_turned_in</span>
+                <div class="pillar-title">Anamnese Detalhada</div>
+                <div class="pillar-desc">Mapeamento tecidual e histórico individual antes do primeiro toque.</div>
+              </div>
+
+              <div class="pillar-card">
+                <span class="material-symbols-outlined" style="font-size: 24px;">flare</span>
+                <div class="pillar-title">Sem Dor ou Agressão</div>
+                <div class="pillar-desc">Eficácia através de estímulo biológico e fisiológico respeitoso.</div>
+              </div>
+
+              <div class="pillar-card">
+                <span class="material-symbols-outlined" style="font-size: 24px;">diversity_1</span>
+                <div class="pillar-title">Suporte Contínuo</div>
+                <div class="pillar-desc">Orientações de autocuidado e rotinas pós-sessão para bem-estar duradouro.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. SEÇÃO DE PROCEDIMENTOS ESPECIALIZADOS (13 SERVIÇOS)
+         ========================================================================= -->
+    <section class="section" id="procedimentos">
+      <div class="container">
+        <div class="section-header" data-reveal data-reveal-delay="0">
+          <div class="eyebrow">
+            <span class="material-symbols-outlined" style="font-size: 20px;">tune</span>
+            <span>Catálogo Clínico</span>
+          </div>
+          <h2 class="section-title">Procedimentos Especializados</h2>
+          <p class="section-subtitle">
+            Técnicas manuais e tecnologias eletroterápicas combinadas de maneira personalizada para contorno corporal, alívio de edemas e vitalidade da pele.
+          </p>
+
+          <!-- Seletor Interativo de Abas -->
+          <div class="services-tabs" role="tablist" aria-label="Categorias de Tratamentos">
+            <button type="button" class="tab-btn active" id="tab-btn-corporal" role="tab" aria-selected="true" aria-controls="services-grid-corporal">
+              Tratamentos Corporais (8)
+            </button>
+            <button type="button" class="tab-btn" id="tab-btn-facial" role="tab" aria-selected="false" aria-controls="services-grid-facial">
+              Tratamentos Faciais (5)
+            </button>
+          </div>
+        </div>
+
+        <!-- Grade de Serviços Corporais (8) -->
+        <div class="services-grid" id="services-grid-corporal" role="tabpanel" aria-labelledby="tab-btn-corporal">
+          <!-- Preenchido dinamicamente via src/main.js -->
+        </div>
+
+        <!-- Grade de Serviços Faciais (5) -->
+        <div class="services-grid facial-grid" id="services-grid-facial" style="display: none;" role="tabpanel" aria-labelledby="tab-btn-facial">
+          <!-- Preenchido dinamicamente via src/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. SEÇÃO DE DEPOIMENTOS (PROVA SOCIAL)
+         ========================================================================= -->
+    <section class="section section-alt" id="depoimentos">
+      <div class="container">
+        <div class="section-header" data-reveal data-reveal-delay="0">
+          <div class="eyebrow">
+            <span class="material-symbols-outlined filled" style="font-size: 20px;">grade</span>
+            <span>Experiências &amp; Relatos</span>
+          </div>
+          <h2 class="section-title">O Cuidado Refletido em Palavras</h2>
+          <p class="section-subtitle">
+            Histórias de transformação, alívio de queixas crônicas e redescoberta da autoestima feminina em Taubaté.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Depoimento 1 -->
+          <article class="testimonial-card" data-reveal data-reveal-delay="0">
+            <div>
+              <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+              </div>
+              <p class="testimonial-quote">
+                "Eu sofria há anos com dores e sensação de peso nas pernas por conta do Lipedema e quase ninguém entendia o meu problema. A Camila fez uma abordagem acolhedora e extremamente técnica. O alívio na circulação após cada sessão é inexplicável!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">RL</div>
+              <div>
+                <div class="author-name">Renata Lima</div>
+                <div class="author-detail">Tratamento para Lipedema · Taubaté</div>
+                <span class="pending-badge">[CONFIRMAR COM CAMILA: depoimento real]</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Depoimento 2 -->
+          <article class="testimonial-card" data-reveal data-reveal-delay="70">
+            <div>
+              <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+              </div>
+              <p class="testimonial-quote">
+                "Fiz o protocolo Cintura Slim® antes de um evento importante e reduzi centímetros visíveis sem ficar roxa ou com dores. O toque da Camila é firme, preciso e muito relaxante ao mesmo tempo. Não largo nunca mais."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">MF</div>
+              <div>
+                <div class="author-name">Mariana Franco</div>
+                <div class="author-detail">Protocolo Cintura Slim® · Taubaté</div>
+                <span class="pending-badge">[CONFIRMAR COM CAMILA: depoimento real]</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Depoimento 3 -->
+          <article class="testimonial-card" data-reveal data-reveal-delay="140">
+            <div>
+              <div class="testimonial-stars" aria-label="Avaliação 5 estrelas">
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+                <span class="material-symbols-outlined filled" style="font-size: 20px;">star</span>
+              </div>
+              <p class="testimonial-quote">
+                "A limpeza de pele com ela é uma experiência de spa completa! Não senti dor na extração e minha pele saiu macia, sem marcas vermelhas profundas. A dedicação e o conhecimento em Biomedicina trazem uma segurança imensa."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">CP</div>
+              <div>
+                <div class="author-name">Carolina Prado</div>
+                <div class="author-detail">Facial &amp; Peeling de Diamante · Taubaté</div>
+                <span class="pending-badge">[CONFIRMAR COM CAMILA: depoimento real]</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. SEÇÃO FAQ (DÚVIDAS FREQUENTES EM ACCORDION)
+         ========================================================================= -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header" data-reveal data-reveal-delay="0">
+          <div class="eyebrow">
+            <span class="material-symbols-outlined" style="font-size: 20px;">help</span>
+            <span>Transparência &amp; Respostas</span>
+          </div>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-subtitle">
+            Tire suas dúvidas sobre avaliação, métodos de tratamento e funcionamento dos agendamentos em Taubaté.
+          </p>
+        </div>
+
+        <div class="faq-wrapper">
+          <!-- Pergunta 1 -->
+          <div class="faq-item" data-reveal data-reveal-delay="0">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Como funciona a avaliação de Lipedema e redução de medidas?</span>
+              <span class="material-symbols-outlined faq-icon">expand_more</span>
+            </button>
+            <div class="faq-content">
+              A avaliação consiste em uma anamnese detalhada, palpação tecidual cuidadosa para identificar nodulações, sensibilidade ao toque e mapeamento de edemas. Avaliamos a rotina e traçamos um plano desinflamatório sem manobras dolorosas ou agressivas.
+            </div>
+          </div>
+
+          <!-- Pergunta 2 -->
+          <div class="faq-item" data-reveal data-reveal-delay="70">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Quantas sessões são necessárias para ver resultados?</span>
+              <span class="material-symbols-outlined faq-icon">expand_more</span>
+            </button>
+            <div class="faq-content">
+              Na drenagem e no protocolo Cintura Slim®, o desinchaço e alívio do peso tecidual são notados desde a 1ª sessão. Já para contorno corporal duradouro, tônus muscular com Corrente Russa ou manejo do Lipedema, costumamos indicar programas de 6 a 10 sessões com acompanhamento regular.
+            </div>
+          </div>
+
+          <!-- Pergunta 3 -->
+          <div class="faq-item" data-reveal data-reveal-delay="140">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Os procedimentos causam dor ou hematomas roxos?</span>
+              <span class="material-symbols-outlined faq-icon">expand_more</span>
+            </button>
+            <div class="faq-content">
+              Definitivamente não. Nossa filosofia biomédica rejeita a ideia de que estética eficaz precisa provocar dor ou marcas roxas. Hematoma é sinal de lesão capilar, o que gera inflamação indesejada. Nossas manobras são rítmicas, confortáveis e respeitam a fisiologia celular.
+            </div>
+          </div>
+
+          <!-- Pergunta 4 -->
+          <div class="faq-item" data-reveal data-reveal-delay="0">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Como faço para agendar meu atendimento em Taubaté?</span>
+              <span class="material-symbols-outlined faq-icon">expand_more</span>
+            </button>
+            <div class="faq-content">
+              Os atendimentos são realizados exclusivamente com horário marcado para garantir total privacidade e atenção individual. Basta clicar em qualquer botão do WhatsApp desta página para falar diretamente e escolher o melhor dia e horário.
+            </div>
+          </div>
+
+          <!-- Pergunta 5 -->
+          <div class="faq-item" data-reveal data-reveal-delay="70">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Quais são as formas de pagamento aceitas e planos de sessões?</span>
+              <span class="material-symbols-outlined faq-icon">expand_more</span>
+            </button>
+            <div class="faq-content">
+              Trabalhamos com opções por sessão avulsa e pacotes de tratamento com condições facilitadas. [CONFIRMAR COM CAMILA: opções de Pix, cartão de crédito parcelado e eventuais planos de recorrência].
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. BANNER CONVITE FINAL (CTA)
+         ========================================================================= -->
+    <section class="section" style="padding-top: var(--space-xl);">
+      <div class="container">
+        <div class="cta-banner" data-reveal data-reveal-delay="0">
+          <div class="cta-banner-glow-1"></div>
+          <div class="cta-banner-glow-2"></div>
+          <div class="cta-banner-content">
+            <div class="cta-icon-badge">
+              <span class="material-symbols-outlined" style="font-size: 26px;">self_improvement</span>
+            </div>
+            <h2 class="section-title" style="margin-bottom: var(--space-xs);">
+              Pronta para cuidar do seu corpo com ciência e delicadeza?
+            </h2>
+            <p style="color: var(--color-on-surface-variant); font-size: 1.0625rem; line-height: 1.6;">
+              Dê o primeiro passo para o alívio das tensões, redução de medidas e uma nova relação de carinho com a sua própria saúde tecidual em Taubaté.
+            </p>
+            <a href="https://wa.me/5512988642559?text=Olá%20Camila,%20estou%20pronta%20para%20agendar%20minha%20avaliação!" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 1rem; padding: 0.95rem 2.25rem;">
+              <span class="material-symbols-outlined" style="font-size: 20px;">chat</span>
+              <span>Agende seu horário no WhatsApp</span>
+            </a>
+            <span style="font-size: 0.8125rem; color: var(--color-on-surface-muted);">
+              Atendimento exclusivo com hora marcada · Taubaté - SP
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       8. RODAPÉ (FOOTER)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna da Marca -->
+        <div class="footer-brand-col" data-reveal data-reveal-delay="0">
+          <div class="footer-brand-title">Camila Mirella</div>
+          <p class="footer-brand-desc">
+            Estética Avançada &amp; Biomedicina. Especialista em Redução de Medidas, cuidados para Lipedema e revitalização facial. Atendimento humanizado em Taubaté - SP.
+          </p>
+          <ul class="footer-meta-list">
+            <li>
+              <span class="material-symbols-outlined" style="font-size: 18px;">location_on</span>
+              <span>Taubaté - SP (Consultório Privativo)</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined" style="font-size: 18px;">schedule</span>
+              <span>Atendimento com Hora Marcada [CONFIRMAR COM CAMILA: dias e horários exatos de atendimento]</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Links de Navegação -->
+        <div data-reveal data-reveal-delay="70">
+          <div class="footer-heading">Navegação</div>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre a Profissional</a></li>
+            <li><a href="#procedimentos">Procedimentos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <!-- Contato & Redes Sociais -->
+        <div data-reveal data-reveal-delay="140">
+          <div class="footer-heading">Contato &amp; Social</div>
+          <ul class="footer-links">
+            <li>
+              <a href="https://www.instagram.com/camilaestetica.br/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
+                <span class="material-symbols-outlined" style="font-size: 18px;">photo_camera</span>
+                <span>@camilaestetica.br</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5512988642559" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
+                <span class="material-symbols-outlined" style="font-size: 18px;">call</span>
+                <span>(12) 98864-2559</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" data-reveal data-reveal-delay="0">
+        <p>© 2026 Camila Mirella Estética &amp; Biomedicina · Taubaté - SP. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       9. MODAL INTERATIVO DE PROCEDIMENTOS (DIALOG)
+       ========================================================================= -->
+  <div class="modal-overlay" id="service-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <img id="modal-img" src="" alt="Imagem do procedimento" />
+        <button type="button" class="modal-close-btn" id="service-modal-close" aria-label="Fechar janela de detalhes">
+          <span class="material-symbols-outlined" style="font-size: 20px;">close</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <span class="modal-badge" id="modal-badge">Procedimento</span>
+        <h3 class="modal-title" id="modal-title">Nome do Serviço</h3>
+        <p class="modal-desc" id="modal-desc">Descrição completa do serviço.</p>
+
+        <div class="modal-highlights">
+          <div class="modal-highlights-title">Benefícios &amp; Ação Fisiológica</div>
+          <ul class="modal-highlights-list" id="modal-benefits-list">
+            <!-- Itens inseridos via JavaScript -->
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" class="btn btn-whatsapp" id="modal-whatsapp-btn" target="_blank" rel="noopener noreferrer" style="width: 100%;">
+            <span class="material-symbols-outlined" style="font-size: 20px;">chat</span>
+            <span>Agendar este Procedimento no WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       10. BOTÃO WHATSAPP FLUTUANTE
+       ========================================================================= -->
+  <aside class="floating-whatsapp" aria-label="Atendimento rápido por WhatsApp">
+    <div class="floating-whatsapp-tooltip">Fale comigo no WhatsApp</div>
+    <a href="https://wa.me/5512988642559?text=Olá,%20Camila!%20Gostaria%20de%20tirar%20uma%20dúvida%20e%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="Enviar mensagem no WhatsApp">
+      <span class="material-symbols-outlined filled" style="font-size: 32px;">chat</span>
+    </a>
+  </aside>
+
+  <!-- Script Principal -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

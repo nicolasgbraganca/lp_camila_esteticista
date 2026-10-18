@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "design-craft": {
+      "source": "kipperdev/skillpper",
+      "sourceType": "github",
+      "skillPath": "design-craft/SKILL.md",
+      "computedHash": "f637755df92bd058f64bf12f5e287c0f8e5364fd1f93819c4405ee01d638d515"
+    },
+    "grill-me": {
+      "source": "kipperdev/skillpper",
+      "sourceType": "github",
+      "skillPath": "grill-me/SKILL.md",
+      "computedHash": "f8c312dd8fd7710ef2c9f709ca3f0c6f946f3310bd9e195951d32571c4291269"
+    },
+    "skillpper-saver": {
+      "source": "kipperdev/skillpper",
+      "sourceType": "github",
+      "skillPath": "skillpper-saver/SKILL.md",
+      "computedHash": "5504e5b55d0bbfe3d9a1222da2a4152da66255904e50aa017e6ec17c65dc0979"
+    }
+  }
+}
