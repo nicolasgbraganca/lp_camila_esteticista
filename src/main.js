@@ -20,7 +20,7 @@ export const SERVICES_DATABASE = [
     duration: '50 min / sessão',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDeFEvJ0Py8zytWPgmFYouHZX8xcDgMduEytBtQTCc6wWqJhZ3XWY6eOOBP_3DyGl5pceNM2bOCH3VSj94kT_6RshKAptovnWqnGkZ2Fs6gK0PksB3GnzvIthoPM8Dc-O9x9nysPjBfFulJj1WvwMYWaSoxrY25EqK7j5UFwdwLxKTIo9AJ3jkjAE_PxLKg_Er_wBBzTHsiZFL19RpQcqSZNlDspt9t8wN_7oP5uvnluCP5iwpyZa2kJxkXKKKDr8e6rgs-ZKEBMA',
     shortDesc: 'Estímulo neuromuscular profundo que recruta fibras musculares, combatendo a flacidez tecidual e tonificando abdômen, glúteos e pernas.',
-    fullDesc: 'A Corrente Russa utiliza estímulos elétricos de média frequência para gerar contrações musculares involuntárias e sincronizadas. O procedimento potencializa a oxigenação dos tecidos, estimula a circulação sanguínea e melhora a firmeza dérmica sem sobrecarga para as articulações.\n\n[CONFIRMAR COM CAMILA: parâmetros de frequência e associações recomendadas].',
+    fullDesc: 'A Corrente Russa utiliza estímulos elétricos de média frequência para gerar contrações musculares involuntárias e sincronizadas. O procedimento potencializa a oxigenação dos tecidos, estimula a circulação sanguínea e melhora a firmeza dérmica sem sobrecarga para as articulações.',
     benefits: [
       'Fortalecimento e definição muscular progressiva',
       'Combate à flacidez pós-emagrecimento ou pós-parto',
@@ -37,7 +37,7 @@ export const SERVICES_DATABASE = [
     duration: 'Focalizado por área',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDQj93-gKtP6YyFEvShH2wYjyPKD7rxgCbWq6ZPSVO1x3Z1iBaavQZ69XMkEFc2Gig3ZAsxNyfJU22BTDb8BZRrtYKxk-puUdVvIaRtjqWTXAaKtUPFoY6JC1Wv3YgaPTdgIEH85Q4UQbmDEXewhsrqgx2V_JbEwo3btwmmnr01mREkluPCH65sJZlBF2fUP9VL2CuLhUklfNvoFOowusH6OeQsp909Sj_NSQzsRpgG33Vb278WjXMmH05fyCteujfm2SP2kzyPLg',
     shortDesc: 'Ondas de ultrassom cavitacional que desestruturam as células de gordura em áreas resistentes para posterior metabolização e drenagem.',
-    fullDesc: 'Popularmente conhecida como a lipo sem cortes, a lipocavitação emite ondas ultrassônicas que geram microbolhas no interior dos adipócitos (células de gordura), rompendo suas membranas de forma seletiva sem danificar vasos ou nervos adjacentes.\n\n[CONFIRMAR COM CAMILA: orientações de exercícios e hidratação pós-procedimento].',
+    fullDesc: 'Popularmente conhecida como a lipo sem cortes, a lipocavitação emite ondas ultrassônicas que geram microbolhas no interior dos adipócitos (células de gordura), rompendo suas membranas de forma seletiva sem danificar vasos ou nervos adjacentes.',
     benefits: [
       'Redução de medidas em regiões de gordura localizada',
       'Aprimoramento do contorno corporal',
@@ -54,7 +54,7 @@ export const SERVICES_DATABASE = [
     duration: 'Técnica Manual Especializada',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD4Cdj3_ZK-NXi1RWiGGGq0SOiNf2RSwrEh1Z28bF7KUdPS3AP6ZlzYVnwKGKNu8kGKx30-hwzKT-X_aGdqyRrMVITJqjlK5sca2g9FSWYiiXcotXySdazZ9DniNeNFl4ac8tiJre5Q7JLqxy0tQeH3wQuoqjjY5krrXs6Hcvc9DtpIYf1I111XTPT8Dt0ybnuP6BEbP0a2x4aIcwwtjJcb-WB31eq71DvYhIFHv3fMctjWLKj2mRdyLqkfs1h2iEo-R_D1z5DHlA',
     shortDesc: 'Manobras manuais rítmicas e vigorosas que ativam a microcirculação periférica e auxiliam no alinhamento das curvas da silhueta.',
-    fullDesc: 'Executada com movimentos rápidos de amassamento, deslizamento e pinçamento sobre o tecido adiposo, a massagem modeladora acelera o metabolismo local e reorganiza as fibras teciduais. Na abordagem de Camila Mirella, a técnica é aplicada sem causar hematomas ou agressões.\n\n[CONFIRMAR COM CAMILA: cremes e princípios ativos termogênicos utilizados].',
+    fullDesc: 'Executada com movimentos rápidos de amassamento, deslizamento e pinçamento sobre o tecido adiposo, a massagem modeladora acelera o metabolismo local e reorganiza as fibras teciduais. Na abordagem de Camila Bragança, a técnica é aplicada sem causar hematomas ou agressões.',
     benefits: [
       'Ativação intensa da circulação sanguínea e oxigenação celular',
       'Auxílio na redução do aspecto de celulite',
@@ -71,7 +71,7 @@ export const SERVICES_DATABASE = [
     duration: 'Indispensável / 60 min',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBWcN5EjUGh4TAvkLqXKzryXdjJqLnOYeS215YvThXBlV4Dei3z5ympErp8OwyXwWghKGo_8RzyBQ-6AvADLEnXEug40rHR0GWkJ6FCw-ilSCJL5J1GPnxoWcO7MLJyIYSLclzkfVcfxehYMhLlQgnYz_mHZJyMEUF0qR3w8fDZFMsRe9RyCUPIHsF9zekdIBzQq_p65X6-mfuyiKeaYDxxnXoO1NvXfzn2GRIg1pNPf5EFyyO1v-BpvbVYma2TdrFvJppXtMvpsQ',
     shortDesc: 'Protocolo de baixa pressão e manobras delicadas para desobstrução linfática, alívio da dor e sensação de peso nas pernas causados pelo Lipedema.',
-    fullDesc: 'O Lipedema é uma condição inflamatória que requer extremo cuidado no toque. Este protocolo de drenagem é baseado em diretrizes fisiológicas suaves, direcionando o excesso de líquidos intersticiais para os gânglios sem provocar dor ou desconforto.\n\n[CONFIRMAR COM CAMILA: detalhes do protocolo de suporte e acompanhamento de Lipedema].',
+    fullDesc: 'O Lipedema é uma condição inflamatória que requer extremo cuidado no toque. Este protocolo de drenagem é baseado em diretrizes fisiológicas suaves, direcionando o excesso de líquidos intersticiais para os gânglios sem provocar dor ou hematomas.',
     benefits: [
       'Alívio sensível do peso, dor e cansaço nos membros inferiores',
       'Descongestão dos tecidos edemaciados',
@@ -88,7 +88,7 @@ export const SERVICES_DATABASE = [
     duration: 'Ativação Metabólica',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDQT4pTX8XYoYQkHmf86CO1D_n94xAfx5luqUaOoSLAXcXSPRHQQKpXKBUr7n7pUmbRnKb7UGD5IjbW8dQOg1_U2whb1vARyq7TXa3leE-LRErhgr1-etROMoEIsOfjfG9DkoMOnC3emYrhuHWQwVhEmF2qxDYY9Cn1SL6mgUwEwFZO_ZVMcReLfv-q1LGBzrs3uJ61I4caGxn0rbValkME3MLimhvX8g1V_zRFeAtIl6sHN-VZov6fo2WgvGWOub0KU7L6X4udJg',
     shortDesc: 'Emissão controlada de calor por infravermelho associada a cosméticos termogênicos, impulsionando a sudorese e a eliminação de toxinas.',
-    fullDesc: 'A termoterapia por infravermelho longo eleva suavemente a temperatura corporal local, promovendo vasodilatação e acelerando as reações enzimáticas celulares. Quando associada a argilas ou cremes com cafeína e ativos lipolíticos, potencializa a permeação de ativos.\n\n[CONFIRMAR COM CAMILA: ativos corporais aplicados em conjunto com a manta].',
+    fullDesc: 'A termoterapia por infravermelho longo eleva suavemente a temperatura corporal local, promovendo vasodilatação e acelerando as reações enzimáticas celulares. Quando associada a argilas ou cremes com cafeína e ativos lipolíticos, potencializa a permeação de ativos.',
     benefits: [
       'Estímulo ao processo de desintoxicação tecidual',
       'Relaxamento profundo da musculatura e alívio do estresse',
@@ -99,13 +99,13 @@ export const SERVICES_DATABASE = [
   },
   {
     id: 'cintura-slim',
-    name: 'Cintura Slim®',
+    name: 'Cintura Slim®️',
     category: 'corporal',
     tag: 'Protocolo Exclusivo',
     duration: 'Método Autoral Camila Mirella',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAjVKqojYA2ltVr7SkDqVFthZ7OMc32nIvYz5MI2Ir1stWwVlxG3kZYBUQIBiYZU05wwmX7F9J_aAKsElOkVwCrwCXqqgleB_NHXgjPrNf0RS66UYn1P2cNO3RX2X040EQbk6ry7Bk_PDI5D1ZNZzVD-W-cey3YmZ9GabvMPRVNcYnrx2A_0-2ewDNFc3N-sJo9tfSP_pK_PYT6OUjLWWTKkpQMb_5CVBSOZKrZcIINQBw1HyugvGp-L4rhfeA823Q_xzBuAyfIhw',
     shortDesc: 'Método autoral que associa reposicionamento fascial, drenagem reversa e cosmecêuticos lipolíticos para afinamento visual da silhueta.',
-    fullDesc: 'O Cintura Slim® é uma metodologia refinada e patenteada desenvolvida para reposicionar as estruturas teciduais do abdômen e flancos. Combina técnicas manuais biométricas a produtos de alta absorção para entregar redução visível de medidas de forma imediata e duradoura.\n\n[CONFIRMAR COM CAMILA: média de redução em cm e etapas do protocolo Cintura Slim®].',
+    fullDesc: 'O Cintura Slim®️ é uma metodologia refinada e patenteada desenvolvida para reposicionar as estruturas teciduais do abdômen e flancos. Combina técnicas manuais biométricas a produtos de alta absorção para entregar redução visível de medidas de forma imediata e duradoura.',
     benefits: [
       'Afinamento visível da cintura e contorno abdominal',
       'Redução de medidas comprovada por fita métrica',
@@ -116,13 +116,13 @@ export const SERVICES_DATABASE = [
   },
   {
     id: 'projeto-corpo-livre',
-    name: 'Projeto Corpo Livre®',
+    name: 'Projeto Corpo Livre®️',
     category: 'corporal',
     tag: 'Jornada Integrada',
     duration: 'Programa de 6 a 10 sessões',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAdsuvnZK4j-ROp-JxbnRGPo9OuMVCz-b_-59czq9IrdAIBX7h9ih0kukSDUZ6Qha4qtcio1Tu_9YOOKujnBCPn825DVngLPiJeSkUN3m7Vvp7OujWe-nUJvmhbGVxEVzHTn7Ocw_8UYYtwIKzPWVMs-g2bhwtLBBUkeNRrI-jPburQwolQJ88fCSYo-1aIEPmkYeOQ4C3K0ugVd1lw7dvblnM7n5_uojt8tXF1XYLFJcopiLqm7LWS_7Uzc6KaiPRYnxn3MVO8IQ',
     shortDesc: 'Jornada integrada de sessões combinadas para mulheres que buscam reabilitação do bem-estar, desinflamação profunda e leveza.',
-    fullDesc: 'O Projeto Corpo Livre® é um plano terapêutico completo de acompanhamento. Une drenagens personalizadas, termoterapia, remodelagem manual e orientações de rotina fisiológica para reestruturar a relação da paciente com seu corpo, promovendo saúde duradoura e liberdade.\n\n[CONFIRMAR COM CAMILA: estrutura de consultas de acompanhamento e suporte contínuo].',
+    fullDesc: 'O Projeto Corpo Livre®️ é um plano terapêutico completo de acompanhamento. Une drenagens personalizadas, termoterapia, remodelagem manual e orientações de rotina fisiológica para reestruturar a relação da paciente com seu corpo, promovendo saúde duradoura e liberdade.',
     benefits: [
       'Tratamento global para desinflamação tecidual profunda',
       'Acompanhamento contínuo da evolução semana a semana',
@@ -139,7 +139,7 @@ export const SERVICES_DATABASE = [
     duration: '60 min',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2kSy-lHCGiagea1yPZzztvuKsXPtM8mDY70NHIEPF3W5tEAnHGrtB2FiOPTdxjKb0rwHbdHw96vozd-CBWhDaZOn7bSnWjMNgqoC8wCKEUfYkp4mbX4suqUHO-W1yf3WD_3Q9zC1WwtjUQFjgYVs38fY6v2iBE61fBV_Mig-RsRZeL_76ca1ZmUtjPylhr87DBzAUF8nymecJgB9N8rOVOAZYAe73jRVymz1JxGGhIp6bqN5_L3HEBsKkosxJwlxMcpjktndzIQ',
     shortDesc: 'Manobras suaves e fluidas focadas no alívio de contraturas miofasciais, redução do cortisol circulante e relaxamento pleno.',
-    fullDesc: 'Realizada em ambiente privativo com aromaterapia e toques contínuos de deslizamento profundo e amassamento suave. Promove liberação de endorfinas, alívio de nós de tensão nas costas, pescoço e ombros, e desaceleração do sistema nervoso simpático.\n\n[CONFIRMAR COM CAMILA: óleos essenciais e técnicas de aromaterapia utilizadas].',
+    fullDesc: 'Realizada em ambiente privativo com aromaterapia e toques contínuos de deslizamento profundo e amassamento suave. Promove liberação de endorfinas, alívio de nós de tensão nas costas, pescoço e ombros, e desaceleração do sistema nervoso simpático.',
     benefits: [
       'Alívio imediato de dores musculares e tensões emocionais',
       'Redução da ansiedade e melhora da qualidade do sono',
@@ -158,7 +158,7 @@ export const SERVICES_DATABASE = [
     duration: 'Assepsia & Extração Confortável',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB-Rig24vMrhGMoETXrgxIJvvuYM-TCnqZ18oGPAGznIdsUmtuJuOXpJnw6erbpsblUJdsC7-y89CtIO5hRZhYd4MF9YW61SWRPN7cqP6uuU8_r7tf__RBY-V1430IA-d1Oqy2sU7qi_mn_CZ8qyRlJB1yeP9EE-8_H1PAgHTCXg1LRDDWjZker5J8F5RbKy56avXVlR2yhFpDqegtXP6Cz2eMunZA4Oc2m6_0McU5t37y7aOVeuIEBNG82DEZ4yOLB_oLhRLJiMA',
     shortDesc: 'Extração indolor com emoliência biocompatível, alta frequência bactericida e máscara calmante regeneradora para pureza e equilíbrio dos poros.',
-    fullDesc: 'Um protocolo facial completo que remove cravos (comedões), miliuns e excesso de sebo sem agredir o tecido. Inclui higienização profunda, esfoliação suave, emoliência por calor úmido, extração delicada, aparelho de alta frequência cicatrizante e máscara calmante de alta absorção.\n\n[CONFIRMAR COM CAMILA: cosméticos dermatológicos e máscaras pós-extração].',
+    fullDesc: 'Um protocolo facial completo que remove cravos (comedões), miliuns e excesso de sebo sem agredir o tecido. Inclui higienização profunda, esfoliação suave, emoliência por calor úmido, extração delicada, aparelho de alta frequência cicatrizante e máscara calmante de alta absorção.',
     benefits: [
       'Desobstrução dos poros e prevenção de acnes e cravos',
       'Textura da pele mais uniforme e sedosa',
@@ -175,7 +175,7 @@ export const SERVICES_DATABASE = [
     duration: 'Microdermoabrasão',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAwnVn4-E9UJdsJ6BDfN6VcYXxY19SK691nF2MsGUjuY66bOGf3QcX-4qhkJ8ycaIMamsO_eQLeLOxkng1VKS0WJdXiz5aAOlWTff4-6l_9z3JtWBy8dT_W_Uh0hi2rxK_0ceNs7yNAy5D67a2jSAkprzfMwKAedcuiiOnFDCrNAGUk0lxBdNHPBX5w84A1noO74Z595SSlMlSC3WUzaEl4GfscxldMb2gMBk81dV1YdSpOINFy4jPjSYz_mlGmvmxCimx1XiNg0Q',
     shortDesc: 'Microdermoabrasão mecânica que remove células mortas da camada superficial, uniformiza a textura e atenua linhas finas e manchinhas.',
-    fullDesc: 'Utiliza uma ponteira diamantada com sistema de sucção a vácuo para realizar uma esfoliação física precisa. Estimula a renovação mitótica da epiderme e induz a síntese de colágeno jovem, conferindo um toque aveludado instantâneo.\n\n[CONFIRMAR COM CAMILA: número de sessões sugeridas para manchas solares].',
+    fullDesc: 'Utiliza uma ponteira diamantada com sistema de sucção a vácuo para realizar uma esfoliação física precisa. Estimula a renovação mitótica da epiderme e induz a síntese de colágeno jovem, conferindo um toque aveludado instantâneo.',
     benefits: [
       'Renovação imediata do viço e brilho natural da pele',
       'Atenuação de linhas de expressão finas e manchas superficiais',
@@ -192,7 +192,7 @@ export const SERVICES_DATABASE = [
     duration: 'Restauração Lipídica',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBVvZyR-DlcToM0yQHE1ut4b3BmLNkPxXwtIcG36bYMSMkk4wO6zCqQ2Lxpelfv2ZPA2ynYj0lqnyrp9ij9fADxjrblb-rYd-Bg1i7S-id4JXNcmWf1_yYZDc0z1CJDfoQSjLzGt7BCf7qLwTJWJRVS8FEKocaDPsF3B68y6iox6TXpQEND2yvblPao6AD6XQpb8KHzeQNsiJtGVaRVzZOvIoQwb45652vVGdaRqdCTMtrZYju-3yiPvj9IrT5c8_oomvRgTFQZdQ',
     shortDesc: 'Infusão de ácido hialurônico fracionado, peptídeos e ceramidas para restaurar o manto lipídico, conferindo viço luminoso e proteção.',
-    fullDesc: 'Desenvolvido especialmente para peles desidratadas, sensibilizadas pelo clima ou que perderam o brilho saudável. O protocolo deposita moléculas higroscópicas de ácido hialurônico em diferentes profundidades da epiderme, selando a barreira contra perda transepidérmica de água.\n\n[CONFIRMAR COM CAMILA: formulação dos séruns e protocolos de massagem facial].',
+    fullDesc: 'Desenvolvido especialmente para peles desidratadas, sensibilizadas pelo clima ou que perderam o brilho saudável. O protocolo deposita moléculas higroscópicas de ácido hialurônico em diferentes profundidades da epiderme, selando a barreira contra perda transepidérmica de água.',
     benefits: [
       'Devolução imediata do viço, maciez e luminosidade ("glow")',
       'Fortalecimento da barreira biológica da pele',
@@ -209,7 +209,7 @@ export const SERVICES_DATABASE = [
     duration: 'Protocolo Avançado',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAPogqSs1egpnil0pZ4pEzVbe7WLtnZ8Vrf4Rc3F_fnOwXumR8p51Ij4UHKiaiPoeJe75laG3CPARD7GFBBqnbkZUyUh2tgsI9EFkVema_k9pdbeyX9qoy0R1JoKizXj9UdzEwmsv_Vj15rUM7Ea1uOTXuj5vXv1WgQh2bVwL9zXLXYrhCnqd9oyXVfq164Ug_4jefm061nnexyNPUF8Om9_C8nD9sEc8DspO6sbuT84IB5m2_4HqpMTnBnc5IArgIyK9wuPeOevQ',
     shortDesc: 'Microperfurações cirúrgicas controladas associadas à entrega imediata de fatores de crescimento e ativos clareadores para regeneração profunda.',
-    fullDesc: 'Com agulhas estéreis descartáveis, o equipamento cria microcanais dérmicos que estimulam a cascata inflamatória fisiológica de produção de colágeno e elastina. Simultaneamente, aplica-se a técnica de Drug Delivery, infundindo ativos estéreis de alto peso biológico diretamente na derme.\n\n[CONFIRMAR COM CAMILA: ativos utilizados no drug delivery como fatores de crescimento/vitamina C].',
+    fullDesc: 'Com agulhas estéreis descartáveis, o equipamento cria microcanais dérmicos que estimulam a cascata inflamatória fisiológica de produção de colágeno e elastina. Simultaneamente, aplica-se a técnica de Drug Delivery, infundindo ativos estéreis de alto peso biológico diretamente na derme.',
     benefits: [
       'Estímulo biológico poderoso à produção de colágeno novo',
       'Suavização de cicatrizes de acne e poros dilatados',
@@ -226,7 +226,7 @@ export const SERVICES_DATABASE = [
     duration: 'Sublimação Dérmica Pontual',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuASaTo06KkXI6PIVIoStejUb-MH_dCyFHt-5eotg3uU7DVy3vJYcC7_KQCYsL_fsFR5ltgVMsdw9vGAaQSLcpLM_QdA3z7hhmNw7qSc6ph_gZRqkRQ0RIqRWKbDif8FwLeW6-jLv0V9vMeUcjpDO8mq0Fixajtu812zOVwvGugWqYHUu7xBA1zlYzyZrT32N9hMZ58EF5D6CCUkGi2BCMOdP0472AMu5jrXm6btWYiVPspb2ot8T5MpDduFZae4MBrGfRGG8-vgug',
     shortDesc: 'Tecnologia de plasma fracionado voltada para blefaroplastia sem cortes, amenização de rugas estáticas e retração da flacidez periocular.',
-    fullDesc: 'O arco de plasma ioniza os gases do ar, provocando uma sublimação precisa e micrométrica do excesso de tecido epidérmico flácido. Induz uma retração imediata da pele e uma potente reestruturação de fibras elásticas nas semanas seguintes ao procedimento.\n\n[CONFIRMAR COM CAMILA: orientações de cicatrização e proteção solar indispensável].',
+    fullDesc: 'O arco de plasma ioniza os gases do ar, provocando uma sublimação precisa e micrométrica do excesso de tecido epidérmico flácido. Induz uma retração imediata da pele e uma potente reestruturação de fibras elásticas nas semanas seguintes ao procedimento.',
     benefits: [
       'Alternativa não cirúrgica para excesso de pele nas pálpebras',
       'Atenuação de rugas periorais ("código de barras") e perioculares',
